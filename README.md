@@ -2,8 +2,8 @@
 Fortran code to scale STL files
 
 Execute:
-> gfortran scaleStl.f
-> ./a.out
+$ gfortran scaleStl.f
+$ ./a.out
 
 
 Scale a STL File (ascii-format):
