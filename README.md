@@ -3,6 +3,7 @@ Fortran code to scale STL files
 
 Execute:
 ~$ gfortran scaleStl.f
+
 ~$ ./a.out
 
 
