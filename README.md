@@ -26,3 +26,25 @@ DONE .........
 Transforms all values from INPUT.stl by a factor of 1000 (x  = x/1000) and stores it in OUTPUT.stl.
 
 From mm to m: Scale-factor=1000
+
+
+# scaleSTL_m
+Fortran code to scale STL files from mm to m
+
+Execute:
+
+~$ gfortran scaleStl.f
+
+~$ ./a.out FILE.std
+
+
+Scale a STL File (ascii-format):
+--------------------------------
+
+File (*.stl)                : INPUT.stl
+
+Output - File (solid ***)   : MINPUT.stl
+
+Scale-factor (mm->m = 1000) : 1000
+
+DONE .........
